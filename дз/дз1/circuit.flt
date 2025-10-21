@@ -1,0 +1,88 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <current num="6" peak="0.15" phase="0" id="20">
+      <mxCell style="shape=current;verticalLabelPosition=middle;labelPosition=left;direction=south;" vertex="1" parent="1">
+        <mxGeometry x="730" y="390" width="40" height="40" as="geometry" />
+      </mxCell>
+    </current>
+    <voltage num="3" peak="12" phase="0" id="21">
+      <mxCell style="shape=voltage;verticalLabelPosition=top;labelPosition=center;" vertex="1" parent="1">
+        <mxGeometry x="660" y="200" width="40" height="40" as="geometry" />
+      </mxCell>
+    </voltage>
+    <resistor num="5" resistance="1" id="27">
+      <mxCell style="shape=resistor;verticalLabelPosition=top;labelPosition=center;" vertex="1" parent="1">
+        <mxGeometry x="670" y="299" width="52" height="22" as="geometry" />
+      </mxCell>
+    </resistor>
+    <resistor num="1" resistance="6" id="28">
+      <mxCell style="shape=resistor;verticalLabelPosition=middle;labelPosition=left;direction=south;" vertex="1" parent="1">
+        <mxGeometry x="420" y="384" width="22" height="52" as="geometry" />
+      </mxCell>
+    </resistor>
+    <resistor num="4" resistance="4" id="29">
+      <mxCell style="shape=resistor;verticalLabelPosition=middle;labelPosition=left;direction=south;" vertex="1" parent="1">
+        <mxGeometry x="599" y="384" width="22" height="52" as="geometry" />
+      </mxCell>
+    </resistor>
+    <mxCell id="32" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="29" target="20">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="751.5999755859375" y="466" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="33" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="28" target="32">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="611.5999755859375" y="466" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <resistor num="2" resistance="8" id="39">
+      <mxCell style="shape=resistor;verticalLabelPosition=top;labelPosition=center;" vertex="1" parent="1">
+        <mxGeometry x="532" y="299" width="52" height="22" as="geometry" />
+      </mxCell>
+    </resistor>
+    <resistor num="3" resistance="7" id="40">
+      <mxCell style="shape=resistor;verticalLabelPosition=top;labelPosition=center;" vertex="1" parent="1">
+        <mxGeometry x="584" y="209" width="52" height="22" as="geometry" />
+      </mxCell>
+    </resistor>
+    <mxCell id="41" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="40" target="21">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="42" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="21" target="20">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="44" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="27" target="42">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="751.5999755859375" y="316" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <voltage num="2" peak="28" phase="0" id="52">
+      <mxCell style="shape=voltage;verticalLabelPosition=top;labelPosition=center;direction=west;" vertex="1" parent="1">
+        <mxGeometry x="470" y="290" width="40" height="40" as="geometry" />
+      </mxCell>
+    </voltage>
+    <mxCell id="53" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="52" target="28">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="55" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="40" target="53">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="431.5999755859375" y="306" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="56" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="39" target="52">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="57" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="39" target="27">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="58" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="29" target="57">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="611.5999755859375" y="306" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
