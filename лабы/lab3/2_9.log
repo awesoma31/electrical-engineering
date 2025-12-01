@@ -1,26 +1,26 @@
 LTspice 24.1.9 for Windows
 Circuit: C:\Users\gwert\_itmo\электротехника\лабы\lab3\2_9.net
-Start Time: Fri Nov 28 13:53:13 2025
+Start Time: Mon Dec  1 09:57:55 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.093 seconds.
+Total elapsed time: 0.449 seconds.
 
 Files loaded:
 C:\Users\gwert\_itmo\электротехника\лабы\lab3\2_9.net
 
-t_i: time=0.00739259344644 at 0.00739259344644
-t_u1: time=0.00736412448046 at 0.00736412448046
-t_u2: time=0.00862654703642 at 0.00862654703642
-i_max: MAX(I(V1))=0.479488372803 FROM 0 TO 0.02
-i1_max: MIN(I(L1))=-0.280831515789 FROM 0 TO 0.02
-i2_max: MAX(I(R1))=0.464439183474 FROM 0 TO 0.02
-dt: t_i-t_u2=-0.00123395358997
-t: t_u1-t_u2=-0.00126242255595
-phi: 180*dt/T=175.940809318
-i_rms: RMS(-I(V1))=0.360252714666 FROM 0 TO 0.02
-i1_rms: RMS(-I(L1))=0.247587756978 FROM 0 TO 0.02
-i2_rms: RMS(-I(R1))=0.323710299021 FROM 0 TO 0.02
+t_i: time=0.00201801289311 at 0.00201801289311
+t_u1: time=0.00204523073326 at 0.00204523073326
+t_u2: time=0.00239585955427 at 0.00239585955427
+i_max: MAX(I(V1))=0.529190778732 FROM 0 TO 0.02
+i1_max: MIN(I(L1))=-0.0805970877409 FROM 0 TO 0.02
+i2_max: MAX(I(R1))=0.529660046101 FROM 0 TO 0.02
+dt: t_i-t_u2=-0.000377846661165
+t: t_u1-t_u2=-0.000350628821014
+phi: 180*dt/T=193.972642674
+i_rms: RMS(-I(V1))=0.381646336556 FROM 0 TO 0.02
+i1_rms: RMS(-I(L1))=0.125352609645 FROM 0 TO 0.02
+i2_rms: RMS(-I(R1))=0.373954327548 FROM 0 TO 0.02
